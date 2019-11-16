@@ -1,0 +1,166 @@
+ *{
+    padding: 0 0;
+    margin: 0 0;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    line-height: 25px;
+}
+.wrapper
+{  
+     border: 1px  solid rgb(139, 52, 179);
+    width: 90%;
+    margin: 0 auto;
+    padding: 1% 1%;
+}
+.clearfix::after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height:0;
+    clear: both;
+}
+/*css for header*/
+.header
+{
+    background-color: #1abc9c;
+    color: whitesmoke;
+    margin: 0 0;
+}
+
+/*css for menu*/
+.menu ul
+{
+    list-style-type: none;
+}
+.menu ul a
+{
+    color: #1abc9c;
+    text-decoration:  none;
+    padding: 1%;
+}
+.menu ul a :hover
+{
+    background-color: #1abc9c;
+    color: wheat;
+}
+
+.menu ul a li
+{
+    display: inline;
+}
+ /*css for main body*/
+.main
+{
+    margin: 1% 0;
+}
+
+.main h3
+ {
+     color:purple;
+
+ }
+ 
+ .houses
+ {
+     width:  20%;
+     border: 1px solid grey;
+     margin: 1%;
+     text-align: center;
+     float: left;
+ }
+ .houses :hover
+ {
+     box-shadow: 0 0 3px 3px grey;
+    
+ }
+ .btn-book:hover
+ {
+    box-shadow:  0  0 3px 3px gray;
+    
+ }
+ .houses img
+ {
+    width : 95%;
+
+ }
+ .houses-title
+ {
+     font-weight:bold;
+     font-size: 90%;
+     color: darkblue;
+     padding: 1%;
+
+ }
+ .house-price
+ {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    color: goldenrod;
+    padding: 1% ;
+ }
+ .book-house>
+ .book-house>.houses-added
+ {
+     font-weight: 900;
+
+     padding: 0.2em;
+ }
+.book-house>.houses-location
+{
+    font-weight: lighter;
+    font-size: 90%;
+    color: darkblue;
+    padding:1%;
+}
+ .houses .btn-book
+ {
+     padding: 3%;
+     margin: 3%;
+     background-color: rgb(14, 152, 177);
+     color: whitesmoke;
+ }
+ .book-house img
+ {  
+     width: 500px;
+    height: 500px;
+    border:#3acfc7;
+    border-radius: 12px;
+    float: left;
+    padding: 0 0;
+    margin: 0 0 0 0;
+
+
+}
+.book-house h3
+{
+    text-align: center;
+    
+    font-size: 175%;
+    text-decoration: underline;
+}
+ .houses .btn-book:hover
+ {
+     background-color: teal;
+ }
+
+/*css for footer*/
+.footer
+{
+    background-color: rgb(32, 32, 167);
+    color: darkgray;
+}
+.footer p 
+{
+    text-align: center;
+
+}
+.footer p a
+{
+    color: rgb(21, 228, 176);
+}
+.footer p a :hover 
+{
+    text-decoration: none ;
+}
